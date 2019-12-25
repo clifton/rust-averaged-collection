@@ -3,6 +3,8 @@ name = "averaged_collection"
 version = "0.0.1"
 authors = ["Clifton King <cliftonk@gmail.com>"]
 edition = "2018"
+description = "A Vec-based collection that maintains the average value of its elements"
+license = "MIT"
 
 [dependencies]
 num-traits = "*"
