@@ -25,3 +25,12 @@ avg_collection.add(1.6);
 
 assert_approx_eq!(avg_collection.average(), 1.4);
 ```
+
+# Installation
+
+Add the following to your project's `Cargo.toml`
+
+```toml
+[dependencies]
+averaged_collection = "*"
+```
