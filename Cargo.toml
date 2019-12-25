@@ -1,0 +1,9 @@
+[package]
+name = "averaged_collection"
+version = "0.0.1"
+authors = ["Clifton King <cliftonk@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+num-traits = "*"
+assert_approx_eq = "*"
