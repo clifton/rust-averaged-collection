@@ -4,7 +4,7 @@ A Vec-based collection that maintains the average value of its elements. This is
 
 # Example
 
-```
+```rust
 use averaged_collection::AveragedCollection;
 
 let mut avg_collection = AveragedCollection::new();
@@ -14,7 +14,7 @@ avg_collection.add(2);
 assert_eq!(avg_collection.average(), 1.5);
 ```
 
-```
+```rust
 use averaged_collection::AveragedCollection;
 use assert_approx_eq::assert_approx_eq;
 
