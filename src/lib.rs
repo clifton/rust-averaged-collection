@@ -7,11 +7,13 @@ pub struct AveragedCollection<T: ToPrimitive + Copy> {
 }
 
 impl<T> AveragedCollection<T>
-    where T: ToPrimitive + Copy {
+where
+    T: ToPrimitive + Copy,
+{
     /// adds a new element and updates the average
-    /// 
+    ///
     /// # Example
-    /// 
+    ///
     /// ```
     /// use averaged_collection::AveragedCollection;
     /// let mut avg_collection = AveragedCollection::new();
@@ -19,7 +21,7 @@ impl<T> AveragedCollection<T>
     /// avg_collection.add(2);
     /// assert_eq!(avg_collection.average(), 1.5);
     /// ```
-    /// 
+    ///
     /// ```
     /// use averaged_collection::AveragedCollection;
     /// use assert_approx_eq::assert_approx_eq;
